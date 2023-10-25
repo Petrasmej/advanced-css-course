@@ -1,0 +1,23 @@
+*, :after, :before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: green;
+}
+
+.box {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  background-color: #28b485;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+*, :after, :before{
+    box-sizing: inherit;
+}
+
+.box {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: $font-primary;
+    color: $color-primary;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    padding: $spacer;
+}
