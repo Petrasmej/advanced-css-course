@@ -5,5 +5,22 @@ $color-medium: #55c57a;
 $color-dark: #28b485;
 $color-grey-dark:#f7f7f7;
 
-$font-primary: 'Lato';
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+$color-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+
 $spacer: 30px;
+
+//font
+$default-font-size: 18px;
+$font-primary: 'Lato';
+
+// GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;
