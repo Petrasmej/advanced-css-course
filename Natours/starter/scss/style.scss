@@ -146,10 +146,9 @@
 
     &__cards {
         display: flex;
-        align-items: center;
-        flex : calc((100% - 2 * #{$gutter-horizontal}) / 3);
         justify-content: space-around;
     }
 
+    
 }
 
