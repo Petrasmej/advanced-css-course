@@ -5,6 +5,9 @@
     -moz-perspective: 150rem;
     position: relative;
     height: 500px;
+    margin-left: 0;
+    padding-left: 0;
+    
     
     
     &__side {
@@ -99,5 +102,35 @@
 
         }
     }
+
+    //BACK-SIDE STYLING
+
+    &__cta {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__price-box {
+        text-align: center;
+        color: $color-secondary;
+        font-size: 40px;
+        font-weight: 300;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__price--value {
+        font-size: 70px;
+        margin: 0;
+    }
+
+    &__price--only {
+        margin: 0;
+    }
+
+
+
 
 }
